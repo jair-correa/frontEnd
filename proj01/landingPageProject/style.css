@@ -4,20 +4,16 @@
 }
 
 #logo{
-   margin-left: 75px;
-   margin-top: 50px;
+    margin: 50px 0px 0px 50px;
 }
 
 #topmenu-title{
-    margin-left: 150px;
-    margin-top: 50px;
+    margin: 50px 0px 0px 150px;
 }
 
 #topmenu-text{
-    margin-left: 150px;
-    margin-top: 35px;
+    margin: 35px 0px 0px 150px;
     padding-bottom: 100px;
-    margin-bottom: 0px;
 }
 
 #topmenu{
@@ -28,9 +24,9 @@
 
 #infomenu{
     background-color: #EAECE5;
-    text-align: center;
 }
 
 .icon{
-    margin: 50px;
+    margin: 50px 0px 50px 150px;
+    vertical-align: inherit;
 }
