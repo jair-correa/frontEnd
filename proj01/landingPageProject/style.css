@@ -30,3 +30,22 @@
     margin: 50px 0px 50px 150px;
     align-items: center;
 }
+
+#videosection{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#videotitle{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#videotext{
+    display: flex;
+    align-items: center;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
