@@ -1,8 +1,5 @@
 *{
     margin: opx;
-    background-color: black;
-    background-image: url(images/topmenu-walpaper.svg);
-    color: aliceblue;
     font-family: 'inter';
 }
 
@@ -19,4 +16,16 @@
 #topmenu-text{
     margin-left: 150px;
     margin-top: 35px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+
+#topmenu{
+    background-image: url(images/topmenu-walpaper.svg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+#infomenu{
+    background-color: #EAECE5;
 }
