@@ -49,3 +49,15 @@
 #video{
     margin: 50px 25px 50px 100px;
 }
+
+#carousel{
+  background-color: #247BA0;
+  margin: 100px 0px 100px 0px;  
+  padding: 50px;
+}
+
+#carouseltitle{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
