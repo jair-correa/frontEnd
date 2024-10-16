@@ -1,6 +1,7 @@
 *{
     margin: opx;
     background-color: black;
+    background-image: url(images/topmenu-walpaper.svg);
     color: aliceblue;
     font-family: 'inter';
 }
@@ -12,10 +13,10 @@
 
 #topmenu-title{
     margin-left: 150px;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 #topmenu-text{
     margin-left: 150px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
