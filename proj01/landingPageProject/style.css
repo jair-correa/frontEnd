@@ -28,4 +28,9 @@
 
 #infomenu{
     background-color: #EAECE5;
+    text-align: center;
+}
+
+.icon{
+    margin: 50px;
 }
