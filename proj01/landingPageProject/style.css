@@ -47,12 +47,12 @@
     align-items: center;
 }
 #video{
-    margin: 50px 25px 50px 100px;
+    margin: 50px 25px 50px 75px;
 }
 
 #carousel{
   background-color: #247BA0;
-  margin: 100px 0px 100px 0px;  
+  margin: 0px 10px 0px 10px;  
   padding: 50px;
 }
 
@@ -82,4 +82,18 @@
 .arrow{
     margin: 50%;
     cursor: pointer;
+}
+
+.arrow:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5ms;
+}
+#formulary{
+    text-align: center;
+}
+
+#formtitle{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
 }
