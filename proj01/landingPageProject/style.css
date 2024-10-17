@@ -70,3 +70,11 @@
 .card{
     margin: 0px 50px 0px 50px;
 }
+
+#leftarrow{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
