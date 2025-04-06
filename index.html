@@ -1,84 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Escritório de arquitetura com mais de 800 projetos e 40 anos de experiência. Conheça nossos serviços!"
-    />
+    <meta name="description" content="Escritório de arquitetura com mais de 800 projetos e 40 anos de experiência. Conheça nossos serviços!" />
+    <title>Desafio1 - Arquitetura</title>
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <title>Desafio1</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
-    <!----Top menu-->
-    <div class="topmenu">
+    <!-- Top menu -->
+    <header class="topmenu">
       <a target="_blank" href="https://escoladnc.com.br/">
         <img src="image/logo.svg" alt="Logo DNC" />
       </a>
-
       <h1 id="topmenu-title">Tradição em projetos de arquitetura</h1>
       <p id="topmenu-text">Arquitetura residencial e comercial.</p>
-    </div>
+    </header>
 
-    <!---Infomenu-->
-    <div id="infomenu">
+    <!-- Info menu -->
+    <section id="infomenu">
       <div id="infomenu-text">
         <p>
           <span class="info-number"><b>850</b></span><br />
           empreendimentos construídos
         </p>
-
         <p>
-          <span class="info-number"><b>40</b></span><br />anos de mercado e experiência
+          <span class="info-number"><b>40</b></span><br />
+          anos de mercado e experiência
         </p>
         <p>
-          <span class="info-number"><b>2,000,00000</b></span><br />m² em projetos construídos
+          <span class="info-number"><b>2.000.000</b></span><br />
+          m² em projetos construídos
         </p>
       </div>
-    </div>
+    </section>
 
-    <!---historymenu-->
-    <div id="historymenu">
+    <!-- History -->
+    <section id="historymenu">
       <div>
         <h3>Arquitetos com História e Experiência.</h3>
         <p>
-          Realizamos desde 2002 projetos e <br />gerenciamento de obras com mais
-          de 800 <br />
-          projetos e 2.000.000 de m² construídos, <br />tendo como principal
-          proposta transformar <br />
-          em realidade os sonhos de seus clientes, <br />criando projetos
-          personalizados, unindo a <br />tradição e a modernidade em nossos
-          projetos.
+          Realizamos desde 2002 projetos e gerenciamento de obras com mais de 800 projetos e 2.000.000 de m² construídos.
+        </p>
+        <p>
+          Nossa proposta é transformar em realidade os sonhos de nossos clientes, criando projetos personalizados que unem tradição e modernidade.
         </p>
       </div>
       <div id="image">
         <img src="image/walpaper.svg" alt="Foto de projeto arquitetônico" />
       </div>
-    </div>
+    </section>
 
-    <!---formulary-->
-    <div id="formulary">
+    <!-- Formulário -->
+    <section id="formulary">
       <h1 id="formtitle">Conheça mais sobre nossos serviços:</h1>
       <form
         action="https://api.sheetmonkey.io/form/pU5MvvZm8rBrNy8LjmJNt8"
         method="POST"
       >
         <input type="text" placeholder="Nome" name="Name" required /><br />
-        <input type="text" placeholder="Email" name="Email" required /><br />
+        <input type="email" placeholder="Email" name="Email" required /><br />
         <input
           type="hidden"
           name="Created"
@@ -86,6 +78,6 @@
         />
         <button type="submit">Fale Conosco</button>
       </form>
-    </div>
+    </section>
   </body>
 </html>
